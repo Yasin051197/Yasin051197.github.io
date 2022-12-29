@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.edbfcdb8.css",
+    "main.js": "/static/js/main.d73e8062.js",
+    "static/js/787.5bb579df.chunk.js": "/static/js/787.5bb579df.chunk.js",
+    "static/media/Myntra.png": "/static/media/Myntra.7985799fdf44c2a34537.png",
+    "static/media/mail.jpg": "/static/media/mail.6a7cd9d34a24e151d730.jpg",
+    "static/media/Mytheresa.jpeg": "/static/media/Mytheresa.3ae7d0041e4ce7ebc3f1.jpeg",
+    "static/media/Profile.jpg": "/static/media/Profile.3598684847935c0b66f3.jpg",
+    "static/media/Sp.jpg": "/static/media/Sp.3598684847935c0b66f3.jpg",
+    "static/media/YASIM_JAMADAR.pdf": "/static/media/YASIM_JAMADAR.ca66af34f700bf402eb0.pdf",
+    "static/media/Lovoda.jpg": "/static/media/Lovoda.ffde9204d3631a528543.jpg",
+    "static/media/Tripadvisor.webp": "/static/media/Tripadvisor.9cd3d30fc50bfa363b18.webp",
+    "static/media/call.jpg": "/static/media/call.d069256e31c2fde327b8.jpg",
+    "static/media/skill-bg.svg": "/static/media/skill-bg.bd25574a16184db5c88d.svg",
+    "static/media/contact-bg.svg": "/static/media/contact-bg.6a30e6b652a50201770d.svg",
+    "static/media/pre.svg": "/static/media/pre.f56756b545ace7c74daf.svg",
+    "static/media/about-bg.svg": "/static/media/about-bg.fc32ab7c501be4f13773.svg",
+    "index.html": "/index.html",
+    "main.edbfcdb8.css.map": "/static/css/main.edbfcdb8.css.map",
+    "main.d73e8062.js.map": "/static/js/main.d73e8062.js.map",
+    "787.5bb579df.chunk.js.map": "/static/js/787.5bb579df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edbfcdb8.css",
+    "static/js/main.d73e8062.js"
+  ]
+}
