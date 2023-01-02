@@ -23,7 +23,10 @@ function NavBar() {
       updateNavbar(false);
     }
   }
-
+const resumeopen=()=>
+{
+  window.location.href="https://drive.google.com/file/d/1FFouTtdWaUCz27yqQ5pA3sZcEn3zt5nJ/view?usp=sharing"
+}
   // active class on scroll and click event on navbar items
   const li = document.querySelectorAll(".nav-link");
   const section = document.querySelectorAll(".activeNavlink");
@@ -115,7 +118,7 @@ function NavBar() {
               <Nav.Link
                 // as={Link}
                 // to="/resume"
-                onClick={() => scrollToFunction("scrollResume")}
+                onClick={() => resumeopen()}
               >
                 {/* <span style={pathname === "/resume" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Resume</span> */}
                 <span>Resume</span>

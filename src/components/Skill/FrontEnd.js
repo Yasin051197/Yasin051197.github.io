@@ -2,10 +2,12 @@ import React from "react";
 import {  SiJson } from "react-icons/si";
 import { DiHtml5, DiCss3, DiReact, DiNpm, DiJavascript1} from "react-icons/di";
 function FrontEnd() {
+   
     return (
-        <div className="skillContainer">
-            <div className="tech-icons">
-                <DiHtml5 /><p>HTML</p>
+        <div  className="skillContainer">
+            <div  className="tech-icons">
+                <DiHtml5 size="5rem" />
+                <p>HTML</p>
             </div>
             <div className="tech-icons">
                 <DiCss3 /><p>CSS</p>
