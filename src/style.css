@@ -592,9 +592,8 @@ html {
   display: inline-block !important;
   position: relative !important;
   padding-inline-start: 0 !important;
-  padding-left: 65px !important;
+  /* padding-left: 35px !important; */
   cursor: pointer !important;
-
 }
 
 .home-social-iconsTwo {
