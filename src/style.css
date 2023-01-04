@@ -585,16 +585,18 @@ html {
 /* ---------- */
 /* Home Icon */
 /* ---------- */
-
+/* .home-about-social-links-div
+{
+  border:"1px solid white";
+} */
 .home-about-social-linksTwo {
   justify-content: center !important;
   padding-top: 25px !important;
   display: inline-block !important;
   position: relative !important;
-  padding-inline-start: 0 !important;
-  /* padding-left: 35px !important; */
-  margin-left: 4%;
-  cursor: pointer !important;
+  padding-inline-start: 1 !important;
+  padding-left: 35px !important;
+  cursor: pointer !important; 
 }
 
 .home-social-iconsTwo {

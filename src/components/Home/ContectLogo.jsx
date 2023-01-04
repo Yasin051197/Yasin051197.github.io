@@ -10,7 +10,7 @@ const ContectLogo = () => {
   const [modalShow, setModalShow] = React.useState(false);
   const [callme, setCallme] = React.useState(false);
   return (
-    <div className="home-about-social-links" >
+    <div className="home-about-social-links-div" >
       <span>
         <ul className="home-about-social-linksTwo">
          
