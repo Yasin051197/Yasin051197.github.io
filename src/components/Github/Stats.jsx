@@ -11,7 +11,7 @@ export const Stats = () => {
             <div className="statsContainer">
                 <div>
                     <a href="https://github.com/Yasin051197">
-                        <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=Yasin051197" alt=""/>
+                        <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=Yasin051197" alt="https://github-readme-streak-stats.herokuapp.com/?user=Yasin051197"/>
                     </a>
                 </div>
             </div>
@@ -19,7 +19,7 @@ export const Stats = () => {
             <div style={{marginTop:"20px"}} className="stats-3">
                 <p align="center">
                 <a href="https://github.com/Yasin051197">
-                        <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasin051197&bg_color=0D1117" alt="" />
+                        <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasin051197&bg_color=0D1117" alt="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasin051197&bg_color=0D1117" />
                     </a>
                 </p>
             </div>
