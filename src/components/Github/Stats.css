@@ -1,8 +1,8 @@
 .statsBox{
     display: block;
-    text-align: center;
+    /* text-align: center; */
 
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .statsBox > h3{
@@ -18,10 +18,16 @@
 }
 
 .statsContainer{
+    border: 1px solid gray;
     display: flex;
-    width: 100%;
+    width: 60%;
     margin: auto;
     justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.statsContainer :nth-child(1){
+    padding:5px
 }
 
 .stats-2{
@@ -29,24 +35,18 @@
 }
 
 .stats-2  img{
-    width: 70%;
+    border: 1px solid gray;
+    width: 60%;
     margin: auto;
 }
 
-.stats-3{
-    display: block;
-}
 
-.stats-3  img{
-    width: 20%;
-    margin: auto;
-}
 
 @media all and (min-width: 481px) and (max-width: 768px){
 
     .statsContainer{
-        display: flex;
-        width: 90%;
+        display: grid;
+        width: 70%;
         margin: auto;
         justify-content: center;
     }
