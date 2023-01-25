@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/Sp.jpg";
-
+import resume from "../Assets/YASIM_JAMADAR.pdf"
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -23,10 +23,9 @@ function NavBar() {
       updateNavbar(false);
     }
   }
-const resumeopen=()=>
-{
-  window.location.href="https://drive.google.com/file/d/1FFouTtdWaUCz27yqQ5pA3sZcEn3zt5nJ/view?usp=sharing"
-}
+  const newtab = () => {
+    window.open("https://drive.google.com/file/d/1FFouTtdWaUCz27yqQ5pA3sZcEn3zt5nJ/view?usp=sharing")
+  }
   // active class on scroll and click event on navbar items
   const li = document.querySelectorAll(".nav-link");
   const section = document.querySelectorAll(".activeNavlink");
@@ -118,10 +117,13 @@ const resumeopen=()=>
               <Nav.Link
                 // as={Link}
                 // to="/resume"
-                onClick={() => resumeopen()}
+                
               >
                 {/* <span style={pathname === "/resume" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Resume</span> */}
-                <span>Resume</span>
+                
+                <a 
+                   style={{textDecoration:"none",color:"white"}} href={resume} download={true}><span onClick={()=>newtab()}>Resume</span></a>     
+                
               </Nav.Link>
             </Nav.Item>
 
