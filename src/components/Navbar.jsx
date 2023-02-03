@@ -5,6 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/Sp.jpg";
 import resume from "../Assets/YASIM_JAMADAR.pdf"
+import "./Navbar.css"
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -121,8 +122,8 @@ function NavBar() {
               >
                 {/* <span style={pathname === "/resume" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Resume</span> */}
                 
-                <a 
-                   style={{textDecoration:"none",color:"white"}} href={resume} download={true}><span onClick={()=>newtab()}>Resume</span></a>     
+                <a id="resumeStyles"
+                    onClick={()=>newtab()} href={resume} download={true}>Resume</a>     
                 
               </Nav.Link>
             </Nav.Item>
