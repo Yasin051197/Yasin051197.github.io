@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/YASIM_JAMADAR.pdf";
+import pdf from "../../Assets/fw20_1091-YASIM-JAMADAR-RESUME.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {

@@ -4,8 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/Sp.jpg";
-import resume from "../Assets/YASIM_JAMADAR.pdf"
-import "./Navbar.css"
+import resume from "../Assets/"
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -25,7 +24,22 @@ function NavBar() {
     }
   }
   const newtab = () => {
-    window.open("https://drive.google.com/file/d/1FFouTtdWaUCz27yqQ5pA3sZcEn3zt5nJ/view?usp=sharing")
+    const resumeFileName = 'resume.pdf';
+    
+    // Create a new anchor element to trigger the download
+    const downloadLink = document.createElement('a');
+    downloadLink.href = resume;
+    downloadLink.download = resume;
+    
+    // Append the anchor element to the document, trigger the download, and remove the element
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+    
+    // Redirect to a new URL after a brief delay (in this example, 2 seconds)
+    setTimeout(() => {
+      window.open('https://drive.google.com/file/d/1XMKaCXuj8A_TLv_CDZ5J7OzLzJyRxu07/view?usp=sharing', '_blank');
+    }, 2000);
   }
   // active class on scroll and click event on navbar items
   const li = document.querySelectorAll(".nav-link");
@@ -122,8 +136,7 @@ function NavBar() {
               >
                 {/* <span style={pathname === "/resume" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Resume</span> */}
                 
-                <a id="resumeStyles"
-                    onClick={()=>newtab()} href={resume} download={true}>Resume</a>     
+                <Nav onClick={()=>newtab()}>Resume</Nav>
                 
               </Nav.Link>
             </Nav.Item>
