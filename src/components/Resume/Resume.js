@@ -2,17 +2,27 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/fw20_1091-YASIM-JAMADAR-RESUME.pdf";
+import pdf from "../../Assets/YASIM_JAMADAR_RESUME.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
+  const download=()=>{
+    const downloadLink = document.createElement('a');
+    downloadLink.href = pdf;
+    downloadLink.download = pdf;
+    
+    // Append the anchor element to the document, trigger the download, and remove the element
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+  }
   return (
     <div className="resume-background activeNavlink" id="scrollResume">
       {/* <Particle2 /> */}
       <Container fluid className="resume-section">
         <Container>
           <Row style={{ justifyContent: "center", position: "relative" }}>
-            <Button variant="primary" href={pdf} target="_blank">
+            <Button onClick={download}>
               <AiOutlineDownload />
               &nbsp;Download CV
             </Button>
@@ -45,7 +55,7 @@ function Resume() {
             </Col>
           </Row>
           <Row style={{ justifyContent: "center", position: "relative" }}>
-            <Button variant="primary" href={"https://drive.google.com/file/d/1FFouTtdWaUCz27yqQ5pA3sZcEn3zt5nJ/view?usp=sharing"} target="_blank">
+            <Button variant="primary" href={"https://drive.google.com/file/d/1XMKaCXuj8A_TLv_CDZ5J7OzLzJyRxu07/view?usp=sharing"} target="_blank">
               <AiOutlineDownload />
               &nbsp;Download CV From Google Drive
             </Button>

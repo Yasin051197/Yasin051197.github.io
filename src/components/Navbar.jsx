@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/Sp.jpg";
-import resume from "../Assets/"
+import resume from "../Assets/YASIM_JAMADAR_RESUME.pdf"
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -24,7 +24,6 @@ function NavBar() {
     }
   }
   const newtab = () => {
-    const resumeFileName = 'resume.pdf';
     
     // Create a new anchor element to trigger the download
     const downloadLink = document.createElement('a');

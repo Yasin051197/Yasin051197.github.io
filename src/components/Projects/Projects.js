@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Tripadvisor from "../../Assets/Projects/Tripadvisor.webp"
  import Lovoda from "../../Assets/Projects/Lovoda.jpg";
- import Myntra from "../../Assets/Projects/Myntra.png"
+ import Shopkart from "../../Assets/Projects/Shopkart.png"
  import Mytheresa from "../../Assets/Projects/Mytheresa.jpeg"
 function Projects() {
   return (
@@ -52,14 +52,15 @@ function Projects() {
              {/* myntra.com Clone -------------------------------------------------------------------*/}
              <Col md={6} className="project-card">
               <ProjectCard
-                imgPath={Myntra}
+                imgPath={Shopkart}
                 isBlog={false}
-                title="Myntra.com Clone"
-                tool= "Html, Css, JavaScript, Json-Server,Reactjs,Chakra-ui,Json-server"
-                description="Myntra is get best Of Influencer Approved Stylish Finds On This End Of Reason Sale On Myntra. 
-                Deals and Offers On All Myntra Categories.But work in progress"
-                link="https://github.com/Yasin051197/Myntra_Clone"
-                demoLink="https://zesty-daifuku-470069.netlify.app/"
+                title="Flipkart.com Clone"
+                tool= "Css, react, Chakra UI, RestApi, JS libraries, Backend(Nodejs.Expressjs,MongoDB)"
+                description="Shopkart is an e-commerce website where users
+                can buy products such as Electronics, apparels etc. It
+                is a collaborative MERN project."
+                link="https://github.com/kiranbhil/flipkart-clone"
+                demoLink="https://shopkartclone.netlify.app/"
               />
             </Col>
             {/* Mytheresa.com Clone -------------------------------------------------------------------*/}
