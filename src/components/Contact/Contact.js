@@ -76,7 +76,7 @@ function Contact() {
                   rel="noreferrer"
                   href="https://www.linkedin.com/in/yasim-jamadar-8a3a91209/"
                 >
-                  <span id="contact-github">www.linkedin.com/in/Yasim-Jamadar</span>
+                  <span id="contact-linkedin">www.linkedin.com/in/Yasim-Jamadar</span>
                   <span style={{ opacity: 0 }}>||</span>
                 </a>
               </li>
@@ -95,7 +95,7 @@ function Contact() {
                   rel="noreferrer"
                   href="https://github.com/Yasin051197"
                 >
-                  <span id="contact-github">github.com/YasimJamadar</span>
+                  <span id="contact-linkedin">github.com/YasimJamadar</span>
                 </a>
               </li>
             </ul>
