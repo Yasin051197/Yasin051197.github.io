@@ -70,16 +70,17 @@ function Contact() {
                 >
                   <FaLinkedinIn />
                 </a>
-                <span id="contact-linkedin">
+                
                 <a
                   className="link-text-css"
+                  id="contact-linkedin"
                   target="_blank"
                   rel="noreferrer"
                   href="https://www.linkedin.com/in/yasim-jamadar-8a3a91209/"
                 >
                   www.linkedin.com/in/Yasim-Jamadar
                 </a>
-                </span>
+                
               </li>
               <li className="social-icons-contect fifth">
                 <a
@@ -90,17 +91,15 @@ function Contact() {
                 >
                   <AiFillGithub />
                 </a>
-                <span id="contact-linkedin">
                 <a
                   className="link-text-css"
+                  id="contact-linkedin"
                   target="_blank"
                   rel="noreferrer"
                   href="https://github.com/Yasin051197"
                 >
                   github.com/YasimJamadar
                 </a>
-                </span>
-                
               </li>
             </ul>
           </Col>
