@@ -57,25 +57,6 @@ function Contact() {
                   <span style={{ opacity: 0 }}></span>
                 </span>
               </li>
-              <li className="social-icons-contect fifth">
-                <a
-                  href="https://github.com/Yasin051197"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-                <a
-                  className="link-text-css"
-                  id="contact-github"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://github.com/Yasin051197"
-                >
-                  github.com/YasimJamadar
-                </a>
-              </li>
             </ul>
           </Col>
           <Col md={6} className="home-about-social">
@@ -91,31 +72,31 @@ function Contact() {
                 </a>
                 <a
                   className="link-text-css"
-                  id="contact-github"
                   target="_blank"
                   rel="noreferrer"
                   href="https://www.linkedin.com/in/yasim-jamadar-8a3a91209/"
                 >
-                  www.linkedin.com/in/Yasim-Jamadar
+                  <span id="contact-github">www.linkedin.com/in/Yasim-Jamadar</span>
                   <span style={{ opacity: 0 }}>||</span>
                 </a>
               </li>
-            
-              <li className="social-icons-contect sixth">
-                <Message show={message} onHide={() => setMessage(false)} />
-                <span
-                  onClick={() => setMessage(true)}
-                  className="icon-colour home-social-icons"
+              <li className="social-icons-contect fifth">
+                <a
+                  href="https://github.com/Yasin051197"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
                 >
-                  <MdMessage />
-                </span>
-                <span
+                  <AiFillGithub />
+                </a>
+                <a
                   className="link-text-css"
-                  onClick={() => setMessage(true)}
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/Yasin051197"
                 >
-                  Click Here To Send Me Message
-                  <span style={{ opacity: 0 }}></span>
-                </span>
+                  <span id="contact-github">github.com/YasimJamadar</span>
+                </a>
               </li>
             </ul>
           </Col>
