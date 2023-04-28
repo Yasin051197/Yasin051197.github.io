@@ -21,7 +21,7 @@ function Contact() {
       <Container fluid className="home-contect-section" id="about">
         <Row>
           <Col md={12} className="home-about-social">
-            <h1 style={{ fontSize: "2.3em", marginTop: "59px" }}>Connect Me <span className="purple">On </span></h1>
+            <h1 style={{ fontSize: "2.3em", marginTop: "59px" }}>Contact</h1>
           </Col>
           <Col md={6} className="home-about-social">
             <ul className="home-about-social-links">
@@ -47,6 +47,7 @@ function Contact() {
                 </span>
                 <span
                   className="link-text-css"
+                  id="contact-email"
                   onClick={() => setModalShow(true)}
                 >
                   yasinjamadar0511@gmail.com

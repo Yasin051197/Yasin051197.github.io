@@ -8,7 +8,7 @@ function About2() {
                 <Row>
                     <Col md={12} className="home-about-description">
                         <h1 style={{ fontSize: "3em" }}>
-                            <span className="purple">“About me” </span>
+                            <span className="purple">“About” </span>
                         </h1>
                         <p className="home-about-body">
                             <span className="myabout first-about">

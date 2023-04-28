@@ -12,7 +12,7 @@ function Projects() {
       <Container fluid className="project-section">
         <Container>
           <h1 className="project-heading">
-            My <strong className="purple">Projects </strong>
+            <strong className="purple">Projects</strong>
           </h1>
           <p style={{ color: "white" }}>
             Here are a few projects I've worked on recently.
@@ -49,13 +49,25 @@ function Projects() {
                 demoLink="https://candid-zabaione-3fa313.netlify.app/"
               />
             </Col>
+             {/* Mytheresa.com Clone -------------------------------------------------------------------*/}
+             <Col md={6} className="project-card">
+              <ProjectCard
+                imgPath={Mytheresa}
+                isBlog={false}
+                title="Mytheresa.com Clone"
+                tool= "Html, Css, JavaScript, Json-Server,Reactjs,Chakra-ui,CRUD methods"
+                description="Mytheresa is an online shopping destination for children's, men's, and women's luxury fashion and lifestyle design."
+                link="https://github.com/himanshudestiny/numerous-governor-3295/tree/main/project"
+                demoLink="https://candid-trifle-91550d.netlify.app/"
+              />
+            </Col>
              {/* myntra.com Clone -------------------------------------------------------------------*/}
              <Col md={6} className="project-card">
               <ProjectCard
                 imgPath={Shopkart}
                 isBlog={false}
                 title="Flipkart.com Clone"
-                tool= "Css, react, Chakra UI, RestApi, JS libraries, Backend(Nodejs.Expressjs,MongoDB)"
+                tool= "Css, Javascript, react, Chakra UI, RestApi, Backend(Nodejs.Expressjs,MongoDB)"
                 description="Shopkart is an e-commerce website where users
                 can buy products such as Electronics, apparels etc. It
                 is a collaborative MERN project."
@@ -63,18 +75,7 @@ function Projects() {
                 demoLink="https://shopkartclone.netlify.app/"
               />
             </Col>
-            {/* Mytheresa.com Clone -------------------------------------------------------------------*/}
-            <Col md={6} className="project-card">
-              <ProjectCard
-                imgPath={Mytheresa}
-                isBlog={false}
-                title="Mytheresa.com Clone"
-                tool= "Html, Css, JavaScript, Json-Server,Reactjs,Chakra-ui,Json-server"
-                description="Mytheresa is an online shopping destination for children's, men's, and women's luxury fashion and lifestyle design."
-                link="https://github.com/himanshudestiny/numerous-governor-3295/tree/main/project"
-                demoLink="https://candid-trifle-91550d.netlify.app/"
-              />
-            </Col>
+           
           </Row>
         </Container>
       </Container>
