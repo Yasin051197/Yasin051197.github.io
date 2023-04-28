@@ -33,7 +33,7 @@ function Contact() {
                 >
                   <IoCall />
                 </span>
-                <span className="link-text-css" onClick={() => setCallme(true)}>
+                <span className="link-text-css" id="contact-phone" onClick={() => setCallme(true)}>
                   +919850340511<span style={{ opacity: 0 }}>+919850340511</span>
                 </span>
               </li>
@@ -65,6 +65,7 @@ function Contact() {
                 </a>
                 <a
                   className="link-text-css"
+                  id="contact-github"
                   target="_blank"
                   rel="noreferrer"
                   href="https://github.com/Yasin051197"
@@ -87,6 +88,7 @@ function Contact() {
                 </a>
                 <a
                   className="link-text-css"
+                  id="contact-github"
                   target="_blank"
                   rel="noreferrer"
                   href="https://www.linkedin.com/in/yasim-jamadar-8a3a91209/"
