@@ -83,57 +83,44 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
-            <Nav.Item>
+            <Nav.Item id="nav-menu">
               <Nav.Link
-                // as={Link}
-                // to="/"
+                id="nav-menu"
                 onClick={() => scrollToFunction("scrollHome")}
               >
-                {/* <span style={pathname === "/" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Home</span> */}
                 <span>Home</span>
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item id="nav-menu" >
               <Nav.Link
-                // as={Link}
-                // to="/about"
                 onClick={() => scrollToFunction("scrollAbout")}
               >
-                {/* <span style={pathname === "/about" ? { color: "#0095ff", fontWeight: "bold" } : {}}>About</span> */}
+                
                 <span>About</span>
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item id="nav-menu">
               <Nav.Link
-                // as={Link}
-                // to="/skill"
                 onClick={() => scrollToFunction("scrollSkills")}
               >
-                {/* <span style={pathname === "/skill" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Skills</span> */}
                 <span>Skills</span>
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item id="nav-menu">
               <Nav.Link
-                // as={Link}
-                // to="/project"
+                
                 onClick={() => scrollToFunction("scrollProjects")}
               >
-                {/* <span style={pathname === "/project" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Projects</span> */}
                 <span>Projects</span>
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            <Nav.Item id="nav-menu">
               <Nav.Link
-                // as={Link}
-                // to="/resume"
-                
               >
-                {/* <span style={pathname === "/resume" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Resume</span> */}
                 
                 <Nav onClick={()=>newtab()}>Resume</Nav>
                 
@@ -142,13 +129,12 @@ function NavBar() {
 
            
 
-            <Nav.Item>
+            <Nav.Item id="nav-menu"> 
               <Nav.Link
-                // as={Link}
-                // to="/contact"
+                
                 onClick={() => scrollToFunction("scrollContact")}
               >
-                {/* <span style={pathname === "/contact" ? { color: "#0095ff", fontWeight: "bold" } : {}}>Contact</span> */}
+                
                 <span>Contact</span>
               </Nav.Link>
             </Nav.Item>
