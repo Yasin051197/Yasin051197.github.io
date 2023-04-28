@@ -70,7 +70,7 @@ function Contact() {
                 >
                   <FaLinkedinIn />
                 </a>
-                <span id="contact-github">
+                <span id="contact-linkedin">
                 <a
                   className="link-text-css"
                   target="_blank"
