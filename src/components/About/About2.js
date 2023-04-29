@@ -11,7 +11,7 @@ function About2() {
                             <span className="purple">“About” </span>
                         </h1>
                         <p className="home-about-body">
-                            <span className="myabout first-about" id="#user-detail-intro">
+                            <span className="myabout first-about" id="user-detail-intro">
                                 Hi, I am Yasim Jamadar, A Full Stack Web Developer. 
                                 I'm from Kolhapur, Maharashtra, India.
                                 I am a enthusiastic developer, eager to contribute to team
@@ -22,7 +22,7 @@ function About2() {
                             </span>
                             <br />
                             <br />
-                            <span  id="#user-detail-intro" className="myabout second-about">
+                            <span  id="user-detail-intro" className="myabout second-about">
                                 I am Aspiring Full Stack Web Developer from Masai School with specializing in
                                 Html, CSS, Javascript, Github, Json-Server, Bootstrap, React.js, Next.js, storybook.…,
                                 I enjoy taking challenges and giving my best. 
