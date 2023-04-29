@@ -286,12 +286,6 @@ html {
 }
 
 .home-section {
-  /* position: relative; */
-  /* z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/about-bg.svg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover; */
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
@@ -345,54 +339,7 @@ html {
   }
 }
 
-/* .about-background {
-  position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/about-bg.svg);
-  background-position: top center;
-  background-attachment: fixed;
-} */
 
-
-/* .Skill-background {
-  position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/about-bg.svg);
-  background-position: top center;
-  background-attachment: fixed;
-} */
-
-/* .project-background {
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/project-bg.svg);
-  background-position: top center;
-  background-attachment: fixed;
-} */
-
-/* .resume-background {
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/resume-bg.svg);
-  background-position: top center;
-  background-attachment: fixed;
-} */
-
-/* .blog-background {
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/blog-bg.svg);
-  background-position: top center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-/* .contact-background {
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/contact-bg.svg);
-  background-position: top center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 
 .home-about-section {
   position: relative !important;
@@ -1137,27 +1084,7 @@ html {
   }
 }
 
-/* .fork-btn {
-  font-size: 1.1em !important;
-  padding-top: 10px !important;
-}
 
-.fork-btn-inner {
-  line-height: 1.4em !important;
-  background-color: #0095ff5e !important;
-  padding: 0.25rem 1.1rem !important;
-  vertical-align: middle !important;
-  text-align: center !important;
-}
-
-.fork-btn-inner:hover {
-  transform: translateY(-2px) !important;
-  background-color: #0095ff86 !important;
-  border-color: #0095ff86 !important;
-}
-.fork-btn-inner::after {
-  display: none !important;
-} */
 
 @keyframes fadeInUp {
   from {

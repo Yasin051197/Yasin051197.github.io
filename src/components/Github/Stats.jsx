@@ -14,12 +14,11 @@ export const Stats = () => {
                         <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=Yasin051197" alt="https://github-readme-streak-stats.herokuapp.com/?user=Yasin051197"/>
                     </a>
                 </div>
-                <div id="github-stats-card">
-                <a id="github-top-langs" href="https://github.com/Yasin051197">
+                <div id="github-top-langs">
+                    <a  href="https://github.com/Yasin051197">
                         <img id="github-top-langs" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasin051197&bg_color=0D1117" alt="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasin051197&bg_color=0D1117" />
                     </a>
-            
-            </div>
+                </div>
             </div>
 
 
