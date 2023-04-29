@@ -85,41 +85,44 @@ function NavBar() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item id="nav-menu">
               <Nav.Link
-                id="nav-menu"
+                className="nav-link"
                 onClick={() => scrollToFunction("scrollHome")}
               >
-                <span>Home</span>
+                <span className="home">Home</span>
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item id="nav-menu" >
               <Nav.Link
+              className="nav-link"
                 onClick={() => scrollToFunction("scrollAbout")}
               >
                 
-                <span>About</span>
+                <span className="about">About</span>
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item id="nav-menu">
               <Nav.Link
+              className="nav-link"
                 onClick={() => scrollToFunction("scrollSkills")}
               >
-                <span>Skills</span>
+                <span className="skills">Skills</span>
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item id="nav-menu">
               <Nav.Link
-                
+                className="nav-link"
                 onClick={() => scrollToFunction("scrollProjects")}
               >
-                <span>Projects</span>
+                <span className="projects">Projects</span>
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item id="nav-menu">
               <Nav.Link
+              className="nav-link"
               >
                 
                 <Nav onClick={()=>newtab()}>Resume</Nav>

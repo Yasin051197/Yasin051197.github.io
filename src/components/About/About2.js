@@ -4,17 +4,17 @@ import { Container, Row, Col } from "react-bootstrap";
 function About2() {
     return (
         <Container fluid className="home-about-section" id="about">
-            <Container>
-                <Row>
+            <Container className="about">
+                <Row className="section">
                     <Col md={12} className="home-about-description">
                         <h1 style={{ fontSize: "3em" }}>
                             <span className="purple">“About” </span>
                         </h1>
                         <p className="home-about-body">
-                            <span className="myabout first-about">
+                            <span className="myabout first-about" id="#user-detail-intro">
                                 Hi, I am Yasim Jamadar, A Full Stack Web Developer. 
                                 I'm from Kolhapur, Maharashtra, India.
-                                Enthusiastic developer, eager to contribute to team
+                                I am a enthusiastic developer, eager to contribute to team
                                 success through hard work, attention to details and
                                 excellent organizational skills. Clear understanding of
                                 tech stacks and training in the field. Motivated to learn,
@@ -22,8 +22,8 @@ function About2() {
                             </span>
                             <br />
                             <br />
-                            <span className="myabout second-about">
-                               I am Aspiring Full Stack Web Developer from Masai School with specializing in
+                            <span  id="#user-detail-intro" className="myabout second-about">
+                                I am Aspiring Full Stack Web Developer from Masai School with specializing in
                                 Html, CSS, Javascript, Github, Json-Server, Bootstrap, React.js, Next.js, storybook.…,
                                 I enjoy taking challenges and giving my best. 
                                 My interest lies in problem-solving and web development. 
