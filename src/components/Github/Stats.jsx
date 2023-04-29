@@ -11,12 +11,12 @@ export const Stats = () => {
             <div className="statsContainer">
                 <div id="github-streak-stats">
                     <a href="https://github.com/Yasin051197">
-                        <img id="github-streak-stats" align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=Yasin051197" alt="https://github-readme-streak-stats.herokuapp.com/?user=Yasin051197"/>
+                        <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=Yasin051197" alt="https://github-readme-streak-stats.herokuapp.com/?user=Yasin051197"/>
                     </a>
                 </div>
                 <div id="github-stats-card">
-                <a href="https://github.com/Yasin051197">
-                        <img id="github-streak-stats" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasin051197&bg_color=0D1117" alt="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasin051197&bg_color=0D1117" />
+                <a id="github-top-langs" href="https://github.com/Yasin051197">
+                        <img id="github-top-langs" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasin051197&bg_color=0D1117" alt="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasin051197&bg_color=0D1117" />
                     </a>
             
             </div>
