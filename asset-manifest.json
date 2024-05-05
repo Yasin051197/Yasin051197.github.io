@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.691031dd.css",
-    "main.js": "/static/js/main.016ade4c.js",
+    "main.css": "/static/css/main.6ab47d12.css",
+    "main.js": "/static/js/main.1e96a132.js",
     "static/js/787.5bb579df.chunk.js": "/static/js/787.5bb579df.chunk.js",
-    "static/media/Shopkart.png": "/static/media/Shopkart.2b0ca340694044f3d941.png",
+    "static/media/Myntra.png": "/static/media/Myntra.7985799fdf44c2a34537.png",
     "static/media/mail.jpg": "/static/media/mail.6a7cd9d34a24e151d730.jpg",
+    "static/media/YASIM_JAMADAR_RESUME.pdf": "/static/media/YASIM_JAMADAR_RESUME.d4dd90485b4882f04195.pdf",
     "static/media/Mytheresa.jpeg": "/static/media/Mytheresa.3ae7d0041e4ce7ebc3f1.jpeg",
     "static/media/Profile.jpg": "/static/media/Profile.3598684847935c0b66f3.jpg",
     "static/media/Sp.jpg": "/static/media/Sp.3598684847935c0b66f3.jpg",
-    "static/media/YASIM_JAMADAR_RESUME.pdf": "/static/media/YASIM_JAMADAR_RESUME.44e5f772485d15ccc00c.pdf",
     "static/media/Lovoda.jpg": "/static/media/Lovoda.ffde9204d3631a528543.jpg",
     "static/media/Tripadvisor.webp": "/static/media/Tripadvisor.9cd3d30fc50bfa363b18.webp",
     "static/media/call.jpg": "/static/media/call.d069256e31c2fde327b8.jpg",
     "static/media/skill-bg.svg": "/static/media/skill-bg.bd25574a16184db5c88d.svg",
     "static/media/contact-bg.svg": "/static/media/contact-bg.6a30e6b652a50201770d.svg",
-    "static/media/pre.svg": "/static/media/pre.f56756b545ace7c74daf.svg",
+    "static/media/pre.svg": "/static/media/pre.d74f6813d316d5507b3b.svg",
     "static/media/about-bg.svg": "/static/media/about-bg.fc32ab7c501be4f13773.svg",
     "index.html": "/index.html",
-    "main.691031dd.css.map": "/static/css/main.691031dd.css.map",
-    "main.016ade4c.js.map": "/static/js/main.016ade4c.js.map",
+    "main.6ab47d12.css.map": "/static/css/main.6ab47d12.css.map",
+    "main.1e96a132.js.map": "/static/js/main.1e96a132.js.map",
     "787.5bb579df.chunk.js.map": "/static/js/787.5bb579df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.691031dd.css",
-    "static/js/main.016ade4c.js"
+    "static/css/main.6ab47d12.css",
+    "static/js/main.1e96a132.js"
   ]
 }
