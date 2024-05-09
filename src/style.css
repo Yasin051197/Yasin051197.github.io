@@ -160,6 +160,7 @@ html {
     display: none !important;
   }
 }
+
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
   padding-left: 1rem !important;
@@ -179,7 +180,6 @@ html {
 
 .nav-link {
   padding: 0.8rem 1rem !important;
-  
 }
 
 @media (max-width: 767px) {
@@ -197,8 +197,6 @@ html {
   font-weight: 400;
   transition: all 0.3s ease-out 0s;
   position: relative;
-  text-decoration: none;
-  color: white;
   z-index: 1;
 }
 
@@ -209,8 +207,6 @@ html {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  text-decoration: none;
-  color: white;
   background: #0095ff;
   bottom: 1px;
   left: 0;
@@ -286,6 +282,12 @@ html {
 }
 
 .home-section {
+  /* position: relative; */
+  /* z-index: -1;
+  background-image: var(--image-gradient), url(./Assets/about-bg.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover; */
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
@@ -339,7 +341,54 @@ html {
   }
 }
 
+/* .about-background {
+  position: relative;
+  z-index: -1;
+  background-image: var(--image-gradient), url(./Assets/about-bg.svg);
+  background-position: top center;
+  background-attachment: fixed;
+} */
 
+
+/* .Skill-background {
+  position: relative;
+  z-index: -1;
+  background-image: var(--image-gradient), url(./Assets/about-bg.svg);
+  background-position: top center;
+  background-attachment: fixed;
+} */
+
+/* .project-background {
+  z-index: -1;
+  background-image: var(--image-gradient), url(./Assets/project-bg.svg);
+  background-position: top center;
+  background-attachment: fixed;
+} */
+
+/* .resume-background {
+  z-index: -1;
+  background-image: var(--image-gradient), url(./Assets/resume-bg.svg);
+  background-position: top center;
+  background-attachment: fixed;
+} */
+
+/* .blog-background {
+  z-index: -1;
+  background-image: var(--image-gradient), url(./Assets/blog-bg.svg);
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* .contact-background {
+  z-index: -1;
+  background-image: var(--image-gradient), url(./Assets/contact-bg.svg);
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 
 .home-about-section {
   position: relative !important;
@@ -536,18 +585,16 @@ html {
 /* ---------- */
 /* Home Icon */
 /* ---------- */
-/* .home-about-social-links-div
-{
-  border:"1px solid white";
-} */
+
 .home-about-social-linksTwo {
   justify-content: center !important;
   padding-top: 25px !important;
   display: inline-block !important;
   position: relative !important;
-  padding-inline-start: 1 !important;
+  padding-inline-start: 0 !important;
   padding-left: 35px !important;
-  cursor: pointer !important; 
+  cursor: pointer !important;
+
 }
 
 .home-social-iconsTwo {
@@ -845,16 +892,17 @@ html {
 
 
 .skillContainer>div {
-  width: 150px;
-  height: 205px;
+  width: 190px;
+  height: 255px;
   border: 2px solid rgba(255, 0, 170, 0.459);
   border-radius: 20px;
   transition: all 0.4s ease 0s;
   box-shadow: 1px 1px 0px 1px rgba(255, 255, 255, 0.781);
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
   overflow: hidden;
 }
 
@@ -889,7 +937,7 @@ html {
   z-index: 2;
   display: block;
   content: "";
-  width: 45%;
+  width: 50%;
   height: 100%;
   background: -webkit-linear-gradient(left,
       rgba(255, 255, 255, 0) 0%,
@@ -1084,7 +1132,27 @@ html {
   }
 }
 
+/* .fork-btn {
+  font-size: 1.1em !important;
+  padding-top: 10px !important;
+}
 
+.fork-btn-inner {
+  line-height: 1.4em !important;
+  background-color: #0095ff5e !important;
+  padding: 0.25rem 1.1rem !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.fork-btn-inner:hover {
+  transform: translateY(-2px) !important;
+  background-color: #0095ff86 !important;
+  border-color: #0095ff86 !important;
+}
+.fork-btn-inner::after {
+  display: none !important;
+} */
 
 @keyframes fadeInUp {
   from {

@@ -9,18 +9,20 @@ export const Stats = () => {
             <h3>GitHub Stats</h3>
             <div>
             <div className="statsContainer">
-                <div id="github-streak-stats">
+                <div>
                     <a href="https://github.com/Yasin051197">
-                        <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=Yasin051197" alt="https://github-readme-streak-stats.herokuapp.com/?user=Yasin051197"/>
-                    </a>
-                </div>
-                <div id="github-top-langs">
-                    <a  href="https://github.com/Yasin051197">
-                        <img id="github-top-langs" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasin051197&bg_color=0D1117" alt="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasin051197&bg_color=0D1117" />
+                        <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=Yasin051197" alt=""/>
                     </a>
                 </div>
             </div>
 
+            <div style={{marginTop:"20px"}} className="stats-3">
+                <p align="center">
+                <a href="https://github.com/Yasin051197">
+                        <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yasin051197&bg_color=0D1117" alt="" />
+                    </a>
+                </p>
+            </div>
 
             <div className="stats-2">
                 <p align="center">

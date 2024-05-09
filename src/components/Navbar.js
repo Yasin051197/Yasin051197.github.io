@@ -4,18 +4,26 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/Sp.jpg";
-import resume from "../Assets/YASIM_JAMADAR_RESUME.pdf"
+import pdf from "../Assets/YASIM_JAMADAR_RESUME.pdf";
+
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-
 
   const scrollToFunction = (id) => {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
     updateExpanded(false);
   };
 
-  // console.log("scrollintoview", window);
+  const downloadResume = () => {
+    const downloadLink = document.createElement('a');
+    downloadLink.href = pdf;
+    downloadLink.download = 'YASIM_JAMADAR_RESUME.pdf';
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
+  };
+
   function scrollHandler() {
     if (window.scrollY >= 5) {
       updateNavbar(true);
@@ -23,24 +31,7 @@ function NavBar() {
       updateNavbar(false);
     }
   }
-  const newtab = () => {
-    
-    // Create a new anchor element to trigger the download
-    const downloadLink = document.createElement('a');
-    downloadLink.href = resume;
-    downloadLink.download = resume;
-    
-    // Append the anchor element to the document, trigger the download, and remove the element
-    document.body.appendChild(downloadLink);
-    downloadLink.click();
-    document.body.removeChild(downloadLink);
-    
-    // Redirect to a new URL after a brief delay (in this example, 2 seconds)
-    setTimeout(() => {
-      window.open('https://drive.google.com/file/d/1XMKaCXuj8A_TLv_CDZ5J7OzLzJyRxu07/view?usp=sharing', '_blank');
-    }, 2000);
-  }
-  // active class on scroll and click event on navbar items
+
   const li = document.querySelectorAll(".nav-link");
   const section = document.querySelectorAll(".activeNavlink");
   function acvtiveMenu() {
@@ -83,68 +74,50 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
-            <Nav.Item id="nav-menu">
-              <Nav.Link
-                className="nav-link"
-                onClick={() => scrollToFunction("scrollHome")}
-              >
-                <span className="home">Home</span>
+            <Nav.Item>
+              <Nav.Link onClick={() => scrollToFunction("scrollHome")}>
+                <span>Home</span>
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item id="nav-menu" >
-              <Nav.Link
-              className="nav-link"
-                onClick={() => scrollToFunction("scrollAbout")}
-              >
-                
-                <span className="about">About</span>
+            <Nav.Item>
+              <Nav.Link onClick={() => scrollToFunction("scrollAbout")}>
+                <span>About</span>
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item id="nav-menu">
-              <Nav.Link
-              className="nav-link"
-                onClick={() => scrollToFunction("scrollSkills")}
-              >
-                <span className="skills">Skills</span>
+            <Nav.Item>
+              <Nav.Link onClick={() => scrollToFunction("scrollSkills")}>
+                <span>Skills</span>
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item id="nav-menu">
-              <Nav.Link
-                className="nav-link"
-                onClick={() => scrollToFunction("scrollProjects")}
-              >
-                <span className="projects">Projects</span>
+            <Nav.Item>
+              <Nav.Link onClick={() => scrollToFunction("scrollProjects")}>
+                <span>Projects</span>
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item id="nav-menu">
-              <Nav.Link
-              className="nav-link"
-              >
-                
-                <Nav onClick={()=>newtab()}>Resume</Nav>
-                
+            <Nav.Item>
+              <Nav.Link onClick={downloadResume}>
+                <span>Resume</span>
               </Nav.Link>
             </Nav.Item>
 
-           
-
-            <Nav.Item id="nav-menu"> 
-              <Nav.Link
-                
-                onClick={() => scrollToFunction("scrollContact")}
-              >
-                
+            <Nav.Item>
+              <Nav.Link onClick={() => scrollToFunction("scrollContact")}>
                 <span>Contact</span>
               </Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Brand href="/">
-          <img style={{borderRadius:"50px",marginTop:"5px"}} src={logo} className="img-fluid logo" alt="brand" />
+          <img
+            style={{ borderRadius: "50px", marginTop: "5px" }}
+            src={logo}
+            className="img-fluid logo"
+            alt="brand"
+          />
         </Navbar.Brand>
       </Container>
     </Navbar>

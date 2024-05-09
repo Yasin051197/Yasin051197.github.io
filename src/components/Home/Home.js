@@ -20,10 +20,10 @@ function Home() {
 
               <h6 className="heading-name">
                 I am
-                <strong id="user-detail-name" className="main-name"> Yasim Jamadar</strong>
+                <strong className="main-name"> Yasim Jamadar</strong>
               </h6>
               <h6 className="sub-heading-name">
-                <strong id="user-detail-intro" >FULL STACK WEB DEVELOPER(Full-Time)</strong>
+                <strong>FULL STACK WEB DEVELOPER</strong>
               </h6>
               <h4 className="sub-heading-name">
                 From
@@ -37,7 +37,6 @@ function Home() {
 
             <Col
               className="my-img-home-div"
-
               md={5}
               style={{ paddingBottom: 15 }}
             >
@@ -45,7 +44,7 @@ function Home() {
                 style={{ border:"1px solid black",width: "70%", borderRadius:"10%"}}
                 src={profile}
                 alt="home pic"
-                className="home-img"
+                className="img-fluid my-img-home"
               />
             </Col>
           </Row>

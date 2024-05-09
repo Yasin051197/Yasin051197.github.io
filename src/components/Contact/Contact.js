@@ -17,11 +17,12 @@ function Contact() {
   const [message, setMessage] = React.useState(false);
   return (
     <div className="contact-background activeNavlink" id="scrollContact">
-      {/* <Particle /> */}
       <Container fluid className="home-contect-section" id="about">
         <Row>
           <Col md={12} className="home-about-social">
-            <h1 style={{ fontSize: "2.3em", marginTop: "59px" }}>Contact</h1>
+            <h1 style={{ fontSize: "2.3em", marginTop: "59px" }}>
+              Connect Me <span className="purple">On </span>
+            </h1>
           </Col>
           <Col md={6} className="home-about-social">
             <ul className="home-about-social-links">
@@ -33,11 +34,8 @@ function Contact() {
                 >
                   <IoCall />
                 </span>
-                <span 
-                  className="link-text-css" 
-                  id="contact-phone"
-                  onClick={() => setCallme(true)}>
-                  +919850340511
+                <span className="link-text-css" onClick={() => setCallme(true)}>
+                  +919850340511<span style={{ opacity: 0 }}>+919850340511</span>
                 </span>
               </li>
               <li className="social-icons-contect third">
@@ -50,12 +48,29 @@ function Contact() {
                 </span>
                 <span
                   className="link-text-css"
-                  id="contact-email"
                   onClick={() => setModalShow(true)}
                 >
-                  yasinjamadar0511@gmail.com
+                  jamadaryasim@gmail.com
                   <span style={{ opacity: 0 }}></span>
                 </span>
+              </li>
+              <li className="social-icons-contect fifth">
+                <a
+                  href="https://github.com/Yasin051197"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+                <a
+                  className="link-text-css"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/Yasin051197"
+                >
+                  github.com/YasimJamadar
+                </a>
               </li>
             </ul>
           </Col>
@@ -70,36 +85,32 @@ function Contact() {
                 >
                   <FaLinkedinIn />
                 </a>
-                
                 <a
                   className="link-text-css"
-                  id="contact-linkedin"
                   target="_blank"
                   rel="noreferrer"
                   href="https://www.linkedin.com/in/yasim-jamadar-8a3a91209/"
                 >
                   www.linkedin.com/in/Yasim-Jamadar
+                  <span style={{ opacity: 0 }}>||</span>
                 </a>
-                
               </li>
-              <li className="social-icons-contect fifth">
-                <a
-                  href="https://github.com/Yasin051197"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+
+              <li className="social-icons-contect sixth">
+                <Message show={message} onHide={() => setMessage(false)} />
+                <span
+                  onClick={() => setMessage(true)}
+                  className="icon-colour home-social-icons"
                 >
-                  <AiFillGithub />
-                </a>
-                <a
+                  <MdMessage />
+                </span>
+                <span
                   className="link-text-css"
-                  id="contact-linkedin"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://github.com/Yasin051197"
+                  onClick={() => setMessage(true)}
                 >
-                  github.com/YasimJamadar
-                </a>
+                  Click Here To Send Me Message
+                  <span style={{ opacity: 0 }}></span>
+                </span>
               </li>
             </ul>
           </Col>
